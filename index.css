@@ -34,8 +34,7 @@ main {
 }
 
 .default {
-  background-color: transparent;
-  border: 2px dotted;
+  background-color: rgb(219, 219, 219);
 }
 
 .output {
@@ -52,14 +51,15 @@ main {
 
 .left,
 .right {
+  background-color: transparent;
   width: 50%;
   height: 100%;
 }
 
-.left:hover {
-  background-color: red;
+.left {
+  border-right: 0.5px solid;
 }
 
-.right:hover {
-  background-color: green;
+.right {
+  border-left: 0.5px solid;
 }
